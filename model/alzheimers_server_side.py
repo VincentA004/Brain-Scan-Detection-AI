@@ -20,7 +20,7 @@ def create_vit_model(num_classes:int=4, device='cpu'):
 
 
 def predict(img):
-    model_path = '/Users/vincentallam/Desktop/code/TSA_2/models/alzheimers_vit_b_16_500_epochs.pth'
+    model_path = 'models/alzheimers_vit_b_16_500_epochs.pth'
     model, transform = create_vit_model()
     class_names = ['MildDemented', 'ModerateDemented', 'NonDemented', 'VeryMildDemented']
 
