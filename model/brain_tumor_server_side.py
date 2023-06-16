@@ -21,7 +21,7 @@ def create_vit_model(num_classes:int=4):
 
 
 def predict(img):
-    model_path = '/Users/vincentallam/Desktop/code/TSA_2/models/brain_tumor_vit_b_16_100_epochs.pth'
+    model_path = 'models/brain_tumor_vit_b_16_100_epochs.pth'
     model, transform = create_vit_model()
     class_names = ['glioma_tumor', 'meningioma_tumor', 'no_tumor', 'pituitary_tumor']
 
