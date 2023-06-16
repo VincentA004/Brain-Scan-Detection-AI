@@ -2,7 +2,7 @@
 import streamlit as st
 
 
-with open("/Users/vincentallam/Desktop/code/TSA_2/assets/designing.css") as source_des:
+with open("/assets/designing.css") as source_des:
     st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([6,1], gap="small")
@@ -12,7 +12,7 @@ with col1:
     st.title("Insight AI")
     
 with col2: 
-    st.image("/Users/vincentallam/Desktop/code/TSA_2/assets/image 2.png")
+    st.image("assets/image 2.png")
 
 
 st.subheader("Creators: Vincent Allam, Chris Abraham, Antony Sajesh, and Raghauv Saravanan")
