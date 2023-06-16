@@ -17,8 +17,8 @@ device = cross_platform_compute()
 weights = torchvision.models.ViT_B_16_Weights.DEFAULT
 auto_transforms = weights.transforms()
 
-train_dir = 'C:\\Users\\Vince\\OneDrive\\Desktop\\code\\AI_projects\\TSA\\Data\\chest_xray\\train'
-test_dir = 'C:\\Users\\Vince\\OneDrive\\Desktop\\code\\AI_projects\\TSA\\Data\\chest_xray\\test'
+train_dir = '\\TSA\\Data\\chest_xray\\train'
+test_dir = '\\TSA\\Data\\chest_xray\\test'
 batch_size=32
 train_dataloader, test_dataloader, class_names = data_setup.create_dataloaders(train_dir=train_dir, test_dir=test_dir, transform=auto_transforms, batch_size=batch_size)
 
