@@ -8,7 +8,17 @@ the state of Texas for the software devolopment event.
 
 Technical Overview
 ------------------
-The 
+The project is split between a front end and an AI backend
+
+  - Front-end: The base of the front end and the webpages for each of the medical detectors were created on a Python package known as streamlit and were stylized and integrated with CSS and Json animations and themes. 
+  
+  - Back-end: The AI predictions were created on a python deep learning library known as Pytorch, the models were based on the state of the art Vision Transformer Neural Networks (ViT) architecture, this model archetecdture coupled with transfer learning from the Imagenet1K dataset allows all three predictive models to create efficent accurate diagnosies. 
+
+
+Repositiory Breakdown
+---------------------
+- Homepage.py: is the intoduction page to the 
+
 
 
 
