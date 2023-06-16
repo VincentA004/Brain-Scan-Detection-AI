@@ -6,7 +6,7 @@ Insight AI is a website created by My friends Raghauv Saravanan [@sraghauv](http
 
 Conditions that are diagnosed
 ----------------------------
- - Alzimers: 
+ - Alzimers severity: The Alzimers AI model takes in a brain MRI scan and then classifys it into 4 severity's those being  
 
 Technical Overview
 ------------------
