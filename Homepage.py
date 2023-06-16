@@ -2,7 +2,7 @@
 import streamlit as st
 
 
-with open("/Users/vincentallam/Desktop/code/TSA_2/assets/designing.css") as source_des:
+with open("path") as source_des:
     st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([6,1], gap="small")
