@@ -37,7 +37,7 @@ Model Statistics
 
 Insight AI's Impact
 ------------------
-The purpose and main function of this website is to save precious time that doctors spend when analyzing different scans in order to save someone's life as well as eliminate human error. Medical Diagnoses are a complex process. There are a lot of abnormalities with a variety of symptoms and sometimes even overlaps in symptoms of many medical conditions . This makes it really difficult to completely understand the nature of the different medical conditions, such as Brain Tumors and Alzheimer’s. Also, a Specialist, like a Neurosurgeon or Radiologist, is required for MRI and X-Ray analysis. Oftentimes in developing countries the lack of skillful doctors and lack of knowledge about tumors makes it really challenging and time-consuming to generate reports from MRI’s.
+The purpose and main function of this website is to save precious time that doctors spend when analyzing different scans in order to save someone's life as well as eliminate human error. Medical Diagnoses are a complex process. There are a lot of abnormalities with a variety of symptoms and sometimes even overlaps in symptoms of many medical conditions . This makes it really difficult to completely understand the nature of the different medical conditions, such as Brain Tumors and Alzheimer’s. Also, a Specialist, like a Neurosurgeon or Radiologist, is required for MRI and X-Ray analysis. Oftentimes in developing countries the lack of skillful doctors and lack of knowledge about tumors makes it really challenging and time-consuming to generate reports from MRI’s. So an automated system on the cloud such as Insight AI would be helpful to doctors all around the world.
  
 
 
