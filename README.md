@@ -6,7 +6,9 @@ Insight AI is a website created by My friends Raghauv Saravanan [@sraghauv](http
 
 Conditions that are diagnosed
 ----------------------------
- - Alzimers severity: The Alzimers AI model takes in a brain MRI scan and then classifys it into 4 severity's those being  
+ - Alzheimer's severity classifier: The alzheimer's AI model takes in a brain MRI scan and then classifys it into 4 severity's those being <br /> [Non_demented, Very-mild_Demted, Mild_demented, Moderate_demented] 
+ - Brain tumor detector: Brain tumor detector takes in a brain MRI scan and then determines what type tumor if any is present <br /> [No_tumor, Glimoma_tumor, Meningioma_tumor, Pituitary_tumor]
+ - Pneumonia detector: The Pneumonia detector takes in chest CT scans and then determines if the patient has pneumonia or not <br /> [No_pneumonia, Pneumonia]
 
 Technical Overview
 ------------------
@@ -25,6 +27,18 @@ Repositiory Breakdown
 
 - Training Models folder: contains the AI python scripts used to generate and train the ViT model on the medical scan data, these scripts then returns model.pth files which are then used to initalize the models created on the on-premise python AI scripts   
 - Model folder: This folder contains the on-premise AI python scripts that perform inference on the uploaded medical scans, the scripts takes in model.pth files and then generates a neural network built on the weigths and biases of the model.pth file. Once the neural network is intialized it then performs inference on the medical scans and returns the percent confidence of the diagnosis and the time it took for the scan to be analyzed and interpreted. 
+
+Model Statistics
+----------------
+ - Alzheimer's severity model: test_accuracy: 99.93% @ 100 scans/secound
+ - Brain tumor detection model: test_accuracy: 99.95% @ 93.2 scans/secound
+ - Pnuemonia detection model: test_accuracy: 99.99% @ 302 scans/secound <br />
+ - *Note scans/secound may vary due to hardware differences.* 
+
+Insight AI's Impact
+------------------
+The purpose and main function of this website is to assist devolping countries 
+ 
 
 
 
