@@ -20,7 +20,7 @@ def create_vit_model(num_classes:int=2):
 
 
 def predict(img):
-    model_path = '/Users/vincentallam/Desktop/code/TSA_2/models/chest-xray_vit_b_16_20_epochs.pth'
+    model_path = 'models/chest-xray_vit_b_16_20_epochs.pth'
     model, transform = create_vit_model()
     class_names = ['normal', 'pneumonia']
  
