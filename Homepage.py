@@ -12,7 +12,7 @@ with col1:
     st.title("Insight AI")
     
 with col2: 
-    st.image("/Users/vincentallam/Desktop/code/TSA_2/assets/image 2.png")
+    st.image("path")
 
 
 st.subheader("Creators: Vincent Allam, Chris Abraham, Antony Sajesh, and Raghauv Saravanan")
