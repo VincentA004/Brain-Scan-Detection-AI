@@ -1,1 +1,1 @@
-# Brain-Scan-Detection-AI-
+# Insight AI
